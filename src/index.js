@@ -1,2 +1,9 @@
+import React from "react";
+import ReactDOM from "react-dom";
 
-console.log("Hola Mundo");
+const index = () => {
+    return <div>Hola React!!</div>;
+}
+
+
+ReactDOM.render(<Index />, document.querySelector("#contenedor"));
