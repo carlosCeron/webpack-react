@@ -1,0 +1,12 @@
+.customStyle{
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    background-color: #eaeaea;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding: 25px;
+}

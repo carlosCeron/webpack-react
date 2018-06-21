@@ -1,9 +1,17 @@
-import React from "react";
+import React,{ Component } from "react";
 import ReactDOM from "react-dom";
+import style from "./index.css";
 
-const index = () => {
-    return <div>Hola React!!</div>;
+class App extends Component{
+
+    render(){
+        return (
+            <div className={style.customStyle}>Hola Como estas?</div>
+        )
+    }
 }
 
 
-ReactDOM.render(<Index />, document.querySelector("#contenedor"));
+ReactDOM.render( <App />, document.querySelector("#componente"));
+
+
